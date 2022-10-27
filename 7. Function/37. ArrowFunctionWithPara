@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kartik Gaikwad codes</title>
+  </head>
+  <body>
+    <script>
+      // Arrow Function with parameter
+      // One Parameter () optional
+      var myfun1 = (a) => {
+        // var myfun = (a) => {
+        document.write(a + "<br>");
+      };
+
+      myfun1(10);
+
+      // More than One Parameter () required
+      var myfun2 = (a, b) => {
+        document.write(a + b + "<br>");
+      };
+
+      myfun2(10, 20);
+
+      // No Parameter () required
+      var myfun0 = () => {
+        document.write("Kartik Gaikwad ");
+      };
+
+      myfun0();
+    </script>
+  </body>
+</html>
+
+<!-- These codes are created, for those who have immense interest in coding and
+programming.. everything is open to you people out there on my personal Github
+account (https://github.com/cipher997) for better understanding of javascript in
+terms of my personal learnings. If you have any doubts please feel free to
+connect (email-id:kartik97gaikwad@gmail.com) regarding general coding
+informational purposes only! -->
