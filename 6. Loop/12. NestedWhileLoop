@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kartik Gaikwad codes</title>
+  </head>
+  <body>
+    <script>
+      var i = 0;
+      while (i < 3) {
+        document.write("<strong>Outer Loop </strong>");
+        document.write(i);
+        i++;
+        document.write("<br>");
+        var j = 0;
+        while (j < 5) {
+          document.write("Inner Loop ");
+          document.write(j);
+          j++;
+          document.write("<br>");
+        }
+      }
+    </script>
+  </body>
+</html>
+
+<!-- These codes are created, for those who have immense interest in coding and
+programming.. everything is open to you people out there on my personal Github
+account (https://github.com/cipher997) for better understanding of javascript in
+terms of my personal learnings. If you have any doubts please feel free to
+connect (email-id:kartik97gaikwad@gmail.com) regarding general coding
+informational purposes only! -->
