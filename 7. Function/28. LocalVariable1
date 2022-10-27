@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kartik Gaikwad codes</title>
+  </head>
+  <body>
+    <script>
+      function show() {
+        var j = "J a Local Vari of Outer Function"; // Local Variable
+        document.write(j + "<br>"); // j accessible in function
+        function innerFun() {
+          var k = "K a Local Vari of inner fun"; // Local variable
+          document.write(k + "<br>"); // k accessible in function
+          document.write(j + "<br>"); // j accessible in function
+        }
+        innerFun();
+        document.write(j + "<br>"); // j accessible in function
+        document.write(k + "<br>"); // k not accessible for outer fun
+      }
+      show();
+    </script>
+  </body>
+</html>
+
+<!-- These codes are created, for those who have immense interest in coding and
+programming.. everything is open to you people out there on my personal Github
+account (https://github.com/cipher997) for better understanding of javascript in
+terms of my personal learnings. If you have any doubts please feel free to
+connect (email-id:kartik97gaikwad@gmail.com) regarding general coding
+informational purposes only! -->
