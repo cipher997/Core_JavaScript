@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kartik Gaikwad codes</title>
+  </head>
+  <body>
+    <script>
+      // accessible from anywhere
+      var i = "I am global Variable"; // Global Variable
+
+      function show() {
+        // Remove var from j, it become global variable
+        j = "I am Local Variable"; // Global Variable
+        document.write(i + "<br>"); // i accessible in function
+        document.write(j + "<br>"); // j accessible in function
+      }
+      show();
+
+      document.write(i + "<br>"); // i accessible outside
+      document.write(j + "<br>"); // j accessible outside
+
+      function disp() {
+        document.write(i + "<br>"); // i accessible in function
+        document.write(j + "<br>"); // j accessible in other function
+      }
+      disp();
+
+      if (true) {
+        document.write(i + "<br>"); // i accessible in block
+        document.write(j + "<br>"); // j accessible in block
+      }
+    </script>
+  </body>
+</html>
+
+<!-- These codes are created, for those who have immense interest in coding and
+programming.. everything is open to you people out there on my personal Github
+account (https://github.com/cipher997) for better understanding of javascript in
+terms of my personal learnings. If you have any doubts please feel free to
+connect (email-id:kartik97gaikwad@gmail.com) regarding general coding
+informational purposes only! -->
