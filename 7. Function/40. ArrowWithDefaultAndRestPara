@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kartik Gaikwad codes</title>
+  </head>
+  <body>
+    <script>
+      // Arrow Function with default para
+      var myfunD = (a, b = 20) => {
+        document.write(a + " " + b);
+      };
+      //myfunD(10, 50);
+
+      // Arrow Function with default para
+      var myfunR = (a, ...args) => {
+        document.write(a + " " + args);
+      };
+      myfunR(10, 50, 60, 70);
+    </script>
+  </body>
+</html>
+
+<!-- These codes are created, for those who have immense interest in coding and
+programming.. everything is open to you people out there on my personal Github
+account (https://github.com/cipher997) for better understanding of javascript in
+terms of my personal learnings. If you have any doubts please feel free to
+connect (email-id:kartik97gaikwad@gmail.com) regarding general coding
+informational purposes only! -->
