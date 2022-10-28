@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kartik Gaikwad codes</title>
+  </head>
+  <body>
+    <script>
+      var a = 10;
+      var b = 10.45;
+      var c = 5e3;
+      var d = 34e-5;
+      var x = new Number(100);
+      document.write(typeof a + " :");
+      document.write(a + "<br>");
+      document.write(typeof b + " :");
+      document.write(b + "<br>");
+      document.write(typeof c + " :");
+      document.write(c + "<br>");
+      document.write(typeof d + " :");
+      document.write(d + "<br>");
+      document.write(typeof x + " :");
+      document.write(x + "<br>");
+
+      var e = "100";
+      document.write(typeof e + " :");
+      document.write(e + "<br>");
+    </script>
+  </body>
+</html>
+
+<!-- These codes are created, for those who have immense interest in coding and
+programming.. everything is open to you people out there on my personal Github
+account (https://github.com/cipher997) for better understanding of javascript in
+terms of my personal learnings. If you have any doubts please feel free to
+connect (email-id:kartik97gaikwad@gmail.com) regarding general coding
+informational purposes only! -->
