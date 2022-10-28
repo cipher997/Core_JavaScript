@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kartik Gaikwad codes</title>
+  </head>
+  <body>
+    <script>
+      function mobile(model_no) {
+        return {
+          model: model_no,
+          price: function () {
+            return "Price is Rs. 3000";
+          },
+        };
+      }
+      var samsung = mobile("galaxy");
+      var nokia = mobile("3310");
+      document.write(samsung.model + " " + samsung.price() + "<br>");
+      document.write(nokia.model + " " + nokia.price());
+    </script>
+  </body>
+</html>
+
+<!-- These codes are created, for those who have immense interest in coding and
+programming.. everything is open to you people out there on my personal Github
+account (https://github.com/cipher997) for better understanding of javascript in
+terms of my personal learnings. If you have any doubts please feel free to
+connect (email-id:kartik97gaikwad@gmail.com) regarding general coding
+informational purposes only! -->
