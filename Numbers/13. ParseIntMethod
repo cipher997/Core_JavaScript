@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kartik Gaikwad codes</title>
+  </head>
+  <body>
+    <script>
+      document.write(parseInt("10") + "<br>");
+      document.write(parseInt("12.00") + "<br>");
+      document.write(parseInt("15.45") + "<br>");
+      document.write(parseInt("10 20 30") + "<br>");
+      document.write(parseInt("   90   ") + "<br>");
+      document.write(parseInt("10 years") + "<br>");
+      document.write(parseInt("years 10") + "<br>");
+      document.write(parseInt("020") + "<br>");
+      document.write(parseInt("12", 8) + "<br>"); // 12 octal = 10 decimal
+      document.write(parseInt("0x12") + "<br>"); // 12 hex = 18 decimal
+      document.write(parseInt("10", 16) + "<br>"); // 10 hex = 16 decimal
+    </script>
+  </body>
+</html>
+
+<!-- These codes are created, for those who have immense interest in coding and
+programming.. everything is open to you people out there on my personal Github
+account (https://github.com/cipher997) for better understanding of javascript in
+terms of my personal learnings. If you have any doubts please feel free to
+connect (email-id:kartik97gaikwad@gmail.com) regarding general coding
+informational purposes only! -->
