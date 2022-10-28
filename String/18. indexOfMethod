@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kartik Gaikwad codes</title>
+  </head>
+  <body>
+    <script>
+      // indexOf() Method
+      // The indexOf( ) method takes a string argument and returns the index of the first occurance of the argument in the string. If the argument is not found returns -1 . This method also accepts an optional second argument that specifies the index at which to start the search.
+      // The indexOf() method cannot take powerful search values (regular expressions).
+
+      var str = "Hi guys Lets Learn JavaScript";
+      document.write(str.indexOf("e")); // 9
+      document.write("<br>");
+      document.write(str.indexOf("e", 10)); //14
+      document.write("<br>");
+      document.write(str.indexOf("Lets")); // 8
+    </script>
+  </body>
+</html>
+
+<!-- These codes are created, for those who have immense interest in coding and
+programming.. everything is open to you people out there on my personal Github
+account (https://github.com/cipher997) for better understanding of javascript in
+terms of my personal learnings. If you have any doubts please feel free to
+connect (email-id:kartik97gaikwad@gmail.com) regarding general coding
+informational purposes only! -->
