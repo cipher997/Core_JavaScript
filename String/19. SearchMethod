@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kartik Gaikwad codes</title>
+  </head>
+  <body>
+    <script>
+      // search() Method
+      // The search() method searches a string for a specified value and returns the position of the match
+      // The search() method cannot take a second start position argument.
+
+      var str = "Hi guys Lets Learn JavaScript";
+      document.write(str.search("e"));
+      document.write("<br>");
+      document.write(str.search("Lets"));
+    </script>
+  </body>
+</html>
+
+<!-- These codes are created, for those who have immense interest in coding and
+programming.. everything is open to you people out there on my personal Github
+account (https://github.com/cipher997) for better understanding of javascript in
+terms of my personal learnings. If you have any doubts please feel free to
+connect (email-id:kartik97gaikwad@gmail.com) regarding general coding
+informational purposes only! -->
