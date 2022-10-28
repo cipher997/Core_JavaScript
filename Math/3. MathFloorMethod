@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kartik Gaikwad codes</title>
+  </head>
+  <body>
+    <script>
+      // The floor() method rounds a number DOWNWARDS to the nearest integer, and returns the result.
+      document.write(Math.floor(2.1) + "<br>");
+      document.write(Math.floor(6.65) + "<br>");
+      document.write(Math.floor(0.4) + "<br>");
+      document.write(Math.floor(0.6) + "<br>");
+      document.write(Math.floor(-2.1) + "<br>");
+      document.write(Math.floor(-6.65) + "<br>");
+    </script>
+  </body>
+</html>
+
+<!-- These codes are created, for those who have immense interest in coding and
+programming.. everything is open to you people out there on my personal Github
+account (https://github.com/cipher997) for better understanding of javascript in
+terms of my personal learnings. If you have any doubts please feel free to
+connect (email-id:kartik97gaikwad@gmail.com) regarding general coding
+informational purposes only! -->
