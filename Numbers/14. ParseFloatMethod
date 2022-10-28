@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kartik Gaikwad codes</title>
+  </head>
+  <body>
+    <script>
+      document.write(parseFloat("10") + "<br>");
+      document.write(parseFloat("12.00") + "<br>");
+      document.write(parseFloat("15.45") + "<br>");
+      document.write(parseFloat("10 20 30") + "<br>");
+      document.write(parseFloat("   90   ") + "<br>");
+      document.write(parseFloat("10 years") + "<br>");
+      document.write(parseFloat("years 10") + "<br>");
+      document.write(parseFloat("020") + "<br>");
+    </script>
+  </body>
+</html>
+
+<!-- These codes are created, for those who have immense interest in coding and
+programming.. everything is open to you people out there on my personal Github
+account (https://github.com/cipher997) for better understanding of javascript in
+terms of my personal learnings. If you have any doubts please feel free to
+connect (email-id:kartik97gaikwad@gmail.com) regarding general coding
+informational purposes only! -->
