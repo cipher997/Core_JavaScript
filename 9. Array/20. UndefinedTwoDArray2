@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kartik Gaikwad codes</title>
+  </head>
+  <body>
+    <script>
+      var rows = 3;
+      var cols = 2;
+      var geek = new Array(rows);
+      for (var i = 0; i < rows; i++) {
+        geek[i] = new Array(cols);
+      }
+
+      for (var i = 0; i < rows; i++) {
+        for (var j = 0; j < cols; j++) {
+          document.write(geek[i][j] + "  ");
+          // document.write(i + " "+ j + "|");
+        }
+        document.write("<br>");
+      }
+    </script>
+  </body>
+</html>
+
+<!-- These codes are created, for those who have immense interest in coding and
+programming.. everything is open to you people out there on my personal Github
+account (https://github.com/cipher997) for better understanding of javascript in
+terms of my personal learnings. If you have any doubts please feel free to
+connect (email-id:kartik97gaikwad@gmail.com) regarding general coding
+informational purposes only! -->
