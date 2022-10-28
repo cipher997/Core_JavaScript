@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kartik Gaikwad codes</title>
+  </head>
+  <body>
+    <script>
+      // Composition or Mixins
+      // Object.assign(target, source1, source_n)
+
+      // Creating Mixing Function
+      function mixin(target, ...sources) {
+        Object.assign(target, ...sources);
+      }
+
+      // Eating Feature
+      var eating = {
+        eat: function () {
+          return "I can Eat <br>";
+        },
+      };
+
+      // Walking Feature
+      var walking = {
+        walk: function () {
+          return "I can Walk <br>";
+        },
+      };
+
+      // Talking Feature
+      var talking = {
+        talk: function () {
+          return "I can Talk <br>";
+        },
+      };
+
+      // Human Class
+      var Human = function () {};
+
+      // Compositing Features to Human
+      mixin(Human.prototype, eating, walking, talking);
+
+      // Robot Class
+      var Robot = function () {};
+
+      // Compositing Features to Robot
+      mixin(Robot.prototype, walking, talking);
+
+      // Creating Objects
+      var Rahul = new Human();
+      var RoboCop = new Robot();
+
+      // Using Features
+      document.write(Rahul.eat());
+      document.write(Rahul.walk());
+      document.write(Rahul.talk());
+
+      document.write(RoboCop.walk());
+      document.write(RoboCop.talk());
+    </script>
+  </body>
+</html>
+
+<!-- These codes are created, for those who have immense interest in coding and
+programming.. everything is open to you people out there on my personal Github
+account (https://github.com/cipher997) for better understanding of javascript in
+terms of my personal learnings. If you have any doubts please feel free to
+connect (email-id:kartik97gaikwad@gmail.com) regarding general coding
+informational purposes only! -->
