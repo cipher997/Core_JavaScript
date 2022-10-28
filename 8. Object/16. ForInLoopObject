@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kartik Gaikwad codes</title>
+  </head>
+  <body>
+    <script>
+      function Mobile(model_no) {
+        this.model = model_no;
+        this.color = "white";
+        this.ram = "4GB";
+        this.price = function () {
+          document.write(this.model + " Price Rs.3000 <br>");
+        };
+      }
+      var samsung = new Mobile("Galaxy");
+      var nokia = new Mobile("3310");
+      for (var key in nokia) {
+        document.write(nokia[key] + "<br>");
+      }
+      /* Value with key
+			for(var key in nokia)
+			{
+				document.write(key + " : " + nokia[key] + "<br>");
+			}
+		*/
+    </script>
+  </body>
+</html>
+
+<!-- These codes are created, for those who have immense interest in coding and
+programming.. everything is open to you people out there on my personal Github
+account (https://github.com/cipher997) for better understanding of javascript in
+terms of my personal learnings. If you have any doubts please feel free to
+connect (email-id:kartik97gaikwad@gmail.com) regarding general coding
+informational purposes only! -->
