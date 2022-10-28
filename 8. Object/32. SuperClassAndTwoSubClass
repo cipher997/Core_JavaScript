@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kartik Gaikwad codes</title>
+  </head>
+  <body>
+    <script>
+      var Mobile = function () {};
+      Mobile.prototype.getModel = function () {
+        return this.model;
+      };
+
+      var Samsung = function (model, price) {
+        this.model = model;
+        this.price = price;
+      };
+
+      var Lenovo = function (model) {
+        this.model = model;
+      };
+
+      // inheritance
+      Samsung.prototype = Object.create(Mobile.prototype);
+      Samsung.prototype.constructor = Samsung;
+      Lenovo.prototype = Object.create(Mobile.prototype);
+      Lenovo.prototype.constructor = Lenovo;
+
+      // always write child prototype after inheritance else it wont work
+      Samsung.prototype.getPrice = function () {
+        return this.price;
+      };
+
+      var galaxy = new Samsung("Galaxy", 3000);
+      var phab2 = new Lenovo("Phab 2");
+
+      console.log(galaxy.getModel());
+      console.log(galaxy.getPrice());
+      console.log(phab2.getModel());
+    </script>
+  </body>
+</html>
+
+<!-- These codes are created, for those who have immense interest in coding and
+programming.. everything is open to you people out there on my personal Github
+account (https://github.com/cipher997) for better understanding of javascript in
+terms of my personal learnings. If you have any doubts please feel free to
+connect (email-id:kartik97gaikwad@gmail.com) regarding general coding
+informational purposes only! -->
