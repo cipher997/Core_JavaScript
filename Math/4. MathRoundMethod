@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kartik Gaikwad codes</title>
+  </head>
+  <body>
+    <script>
+      // The round() method rounds a number to the nearest integer. 6.4 will be rounded down, 6.5 will be rounded up.
+      document.write(Math.round(2.1) + "<br>");
+      document.write(Math.round(6.4) + "<br>");
+      document.write(Math.round(6.5) + "<br>");
+      document.write(Math.round(6.6) + "<br>");
+      document.write(Math.round(0.4) + "<br>");
+      document.write(Math.round(0.5) + "<br>");
+      document.write(Math.round(-2.1) + "<br>");
+      document.write(Math.round(-6.4) + "<br>");
+      document.write(Math.round(-6.5) + "<br>");
+      document.write(Math.round(-6.6) + "<br>");
+    </script>
+  </body>
+</html>
+
+<!-- These codes are created, for those who have immense interest in coding and
+programming.. everything is open to you people out there on my personal Github
+account (https://github.com/cipher997) for better understanding of javascript in
+terms of my personal learnings. If you have any doubts please feel free to
+connect (email-id:kartik97gaikwad@gmail.com) regarding general coding
+informational purposes only! -->
