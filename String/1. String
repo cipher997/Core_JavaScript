@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kartik Gaikwad codes</title>
+  </head>
+  <body>
+    <script>
+      var str1 = "Hello Kartik Gaikwad 1";
+      var str2 = "Hello Kartik Gaikwad 2";
+      var str3 = `Hello Kartik Gaikwad  3`;
+      document.write(str1 + "<br>");
+      document.write(str2 + "<br>");
+      document.write(str3 + "<br>");
+      document.write("I am 'Good' Boy <br>");
+      document.write('I am "Good" Boy <br>');
+      document.write("12345<br>");
+    </script>
+  </body>
+</html>
+
+<!-- These codes are created, for those who have immense interest in coding and
+programming.. everything is open to you people out there on my personal Github
+account (https://github.com/cipher997) for better understanding of javascript in
+terms of my personal learnings. If you have any doubts please feel free to
+connect (email-id:kartik97gaikwad@gmail.com) regarding general coding
+informational purposes only! -->
