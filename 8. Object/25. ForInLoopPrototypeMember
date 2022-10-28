@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kartik Gaikwad codes</title>
+  </head>
+  <body>
+    <script>
+      var Mobile = function (model_no) {
+        // Instance Member
+        this.model = model_no;
+        this.price = 3000;
+      };
+      var samsung = new Mobile("Galaxy");
+      var nokia = new Mobile("3310");
+      // classname.prototype.key = 'value';
+      // Prototype Member
+      Mobile.prototype.color = "white";
+      for (var key in samsung) {
+        document.write(key);
+      }
+    </script>
+  </body>
+</html>
+
+<!-- These codes are created, for those who have immense interest in coding and
+programming.. everything is open to you people out there on my personal Github
+account (https://github.com/cipher997) for better understanding of javascript in
+terms of my personal learnings. If you have any doubts please feel free to
+connect (email-id:kartik97gaikwad@gmail.com) regarding general coding
+informational purposes only! -->
