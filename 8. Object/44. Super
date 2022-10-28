@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kartik Gaikwad codes</title>
+  </head>
+  <body>
+    <script>
+      class Father {
+        constructor(money) {
+          this.Fmoney = money;
+        }
+        showFMoney() {
+          return this.Fmoney + " Father Money <br>";
+        }
+      }
+      class Son extends Father {
+        constructor(money) {
+          super(money);
+          this.a = 12;
+        }
+        showSMoney() {
+          return "Son Money <br>";
+        }
+      }
+
+      var s = new Son(10000);
+      document.write(s.showFMoney());
+      document.write(s.showSMoney());
+    </script>
+  </body>
+</html>
+
+<!-- These codes are created, for those who have immense interest in coding and
+programming.. everything is open to you people out there on my personal Github
+account (https://github.com/cipher997) for better understanding of javascript in
+terms of my personal learnings. If you have any doubts please feel free to
+connect (email-id:kartik97gaikwad@gmail.com) regarding general coding
+informational purposes only! -->
